@@ -48,6 +48,44 @@ This project processes smart meter data and generates insights for energy usage,
 - Data transformation and aggregation  
 - Building business logic for real-world use cases  
 
----
 
 ## 📁 Project Structure
+
+eco_grid_smart_energy/
+│
+├── 📓 eco_grid notebook.ipynb      # Main pipeline notebook
+│   ├── 🥉 Bronze Layer             # Raw JSON data ingestion & simulation
+│   ├── 🥈 Silver Layer             # Data cleaning & transformation
+│   └── 🥇 Gold Layer               # Aggregated insights & business logic
+│
+└── 📄 README.md                    # Project documentation
+
+---
+
+## 🔑 Key Features
+
+- ⚡ Real-time smart meter data simulation
+- 🔍 Electricity theft detection (usage-based logic)
+- 🔧 Predictive maintenance (voltage analysis)
+- 🌿 Eco-score classification (GREEN, YELLOW, RED)
+- 🗺️ Geo-spatial analysis using latitude & longitude
+
+---
+
+## 🧰 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| PySpark | Distributed data processing |
+| Databricks | Cloud execution environment |
+| Delta Lake | Layered data storage |
+| SQL | Data querying & aggregation |
+| Matplotlib/Plotly | Visualization |
+
+---
+
+## 🚀 How to Run
+
+1. Open Databricks workspace
+2. Import `eco_grid notebook.ipynb`
+3. Run cells sequentially (Bronze → Silver → Gold)
