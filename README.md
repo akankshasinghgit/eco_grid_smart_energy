@@ -16,24 +16,6 @@ This project processes smart meter data and generates insights for energy usage,
 
 ---
 
-## ⚙️ Features
-- Real-time smart meter data simulation  
-- Electricity theft detection (usage-based logic)  
-- Predictive maintenance (voltage analysis)  
-- Eco-score classification (GREEN, YELLOW, RED)  
-- Geo-spatial analysis using latitude & longitude  
-- Dashboard visualization (bar, pie, scatter charts)
-
----
-
-## 🛠 Tech Stack
-- PySpark  
-- Databricks  
-- Delta Lake  
-- SQL  
-
----
-
 ## 📊 Sample Output
 - Usage analysis chart  
 - Eco score distribution  
